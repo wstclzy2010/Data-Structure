@@ -44,10 +44,6 @@ int BF(char *x, int m, char *y, int n)
 int main(int argc, char const *argv[])
 {
     SString S,T;
-    S.ch="nimabibidan";S.length=11;
-    T.ch="bibi";T.length=4;
-    printf("%d\n",index(S,T));
-    printf("%c\n",S.ch[2]);
-    printf("%d\n",BF("nimabibidan",11,"ma",4));
+  
     return 0;
 }
